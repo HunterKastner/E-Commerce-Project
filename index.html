@@ -19,7 +19,9 @@
           <ul class="nav__links">
             <li><a href="#" class="nav__link">Home</a></li>
             <li><a href="" class="nav__link">Contact</a></li>
-            <li><a href="" class="nav__link nav__link--primary">Books</a></li>
+            <li>
+              <a href="#features" class="nav__link nav__link--primary">Books</a>
+            </li>
           </ul>
         </div>
       </nav>
@@ -32,7 +34,7 @@
             <h2 class="header__subtitle">
               Find your dream book with <span class="purple">Library</span>
             </h2>
-            <button class="btn">Browse Books</button>
+            <a href="#features"><button class="btn">Browse Books</button></a>
           </div>
           <figure class="header__img--wrapper">
             <img src="./assets/Undraw_Books.svg" alt="" class="header__img" />
@@ -291,6 +293,41 @@
           </div>
         </div>
       </section>
+
+      <section id="explore">
+        <div class="container">
+          <div class="row">
+            <div class="explore__wrapper">
+              <div class="explore__title">
+                Explore more <span class="purple">Books</span>
+              </div>
+              <a href="#features"> <button class="btn">Browse Books</button></a>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
+
+    <footer>
+      <div class="container">
+        <div class="row footer__column">
+          <a href="#">
+            <figure class="footer__logo">
+              <img
+                src="./assets/Library.svg"
+                class="footer__logo--img"
+                alt=""
+              /></figure
+          ></a>
+          <div class="footer__list">
+            <a href="#" class="footer__link">Home</a>
+            <a href="" class="footer__link no__cursor">About</a>
+            <a href="#features" class="footer__link">Books</a>
+            <a href="" class="footer__link no__cursor">Contact</a>
+          </div>
+          <div class="footer__copyright">Copyright &copy; 2024 Library</div>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
